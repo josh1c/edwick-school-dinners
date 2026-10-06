@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>School dinners</title>
+<title>School Dinners</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -158,7 +158,7 @@
 <body>
 <div class="wrap">
   <header>
-    <p class="school" id="school">School dinners</p>
+    <p class="school" id="school">School Dinners</p>
     <button class="today-link" id="todayBtn" hidden aria-label="You are not viewing today. Go back to today">Not today ↩</button>
   </header>
 
@@ -325,8 +325,8 @@
     .then((data) => {
       menu = data;
       for (const [num, w] of Object.entries(data.weeks)) for (const s of w.startDates) weekIndex[s] = num;
-      $("school").textContent = `${data.school} dinners`;
-      document.title = `${data.school} dinners`;
+      $("school").textContent = `${data.school} Dinners`;
+      document.title = `${data.school} Dinners`;
       const h = location.hash.slice(1);
       go(/^\d{4}-\d{2}-\d{2}$/.test(h) ? parse(h) : today(), true);
     })
