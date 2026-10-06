@@ -39,26 +39,29 @@
   body {
     margin: 0; background: var(--page); color: var(--ink);
     font-family: var(--font); font-size: 1.0625rem; line-height: 1.45;
-    height: 100%;
+    height: 100%; overflow: hidden; overscroll-behavior: none;
   }
+  html { overflow: hidden; overscroll-behavior: none; }
+  @supports (height: 100dvh) { html { height: 100dvh; } }
   .wrap {
     max-width: 36rem; margin: 0 auto; height: 100%;
-    padding: 0.9rem 1rem 0.75rem;
+    padding: 1.25rem 1rem 0.75rem;
     display: flex; flex-direction: column;
   }
-  main { flex: 1; min-height: 0; overflow-y: auto; }
+  main { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; touch-action: pan-y; }
 
-  header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 2.25rem; }
   .school { font-weight: 600; font-size: 0.95rem; color: var(--muted); margin: 0; }
   .today-link {
-    font: inherit; font-size: 0.95rem; font-weight: 600; color: var(--ink);
-    background: none; border: 0; padding: 0.25rem 0; cursor: pointer; text-decoration: underline;
-    text-underline-offset: 3px; white-space: nowrap;
+    flex: none; align-self: center;
+    font: inherit; font-size: 0.85rem; font-weight: 600; line-height: 1.2;
+    color: #fff; background: var(--red); border: 0; border-radius: 999px;
+    padding: 0.45rem 0.85rem; cursor: pointer; white-space: nowrap;
   }
   .today-link[hidden] { display: none; }
 
   /* Week strip: five days, the chosen one filled */
-  .weekbar { display: flex; align-items: center; gap: 0.4rem; margin: 0.7rem 0 0.3rem; }
+  .weekbar { display: flex; align-items: center; gap: 0.4rem; margin: 1rem 0 0.4rem; }
   .arrow {
     flex: none; width: 2.4rem; height: 2.6rem; border-radius: 0.6rem;
     border: 1.5px solid var(--line); background: var(--page); color: var(--ink);
@@ -120,9 +123,29 @@
   }
   .fine { color: var(--muted); font-size: 0.75rem; line-height: 1.35; margin: 0.5rem 0 0; }
 
+  /* Taller phones: use the spare height for breathing room rather than empty space at the bottom */
+  @media (min-height: 780px) {
+    .wrap { padding-top: 1.75rem; }
+    .weekbar { margin: 1.4rem 0 0.6rem; }
+    .weeklabel { margin-bottom: 1.5rem; }
+    .dayhead { margin-bottom: 1rem; }
+    .options { gap: 0.6rem; }
+    .opt div { padding: 0.85rem 1rem; }
+    .opt .name { font-size: 1.2rem; }
+    .fine { margin-top: 0.8rem; }
+  }
+  @media (min-height: 860px) {
+    .wrap { padding-top: 2.25rem; }
+    .opt div { padding: 1rem 1.1rem; }
+  }
+
   button:focus-visible, a:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
   @media (prefers-reduced-motion: no-preference) {
     .options.enter .opt { animation: rise 260ms ease-out both; }
+    .options.enter-next .opt { animation: from-right 220ms ease-out both; }
+    .options.enter-prev .opt { animation: from-left 220ms ease-out both; }
+    @keyframes from-right { from { opacity: 0; transform: translateX(24px); } }
+    @keyframes from-left { from { opacity: 0; transform: translateX(-24px); } }
     .options.enter .opt:nth-child(2) { animation-delay: 30ms; }
     .options.enter .opt:nth-child(3) { animation-delay: 60ms; }
     .options.enter .opt:nth-child(4) { animation-delay: 90ms; }
@@ -136,7 +159,7 @@
 <div class="wrap">
   <header>
     <p class="school" id="school">School dinners</p>
-    <button class="today-link" id="todayBtn" hidden>Back to today</button>
+    <button class="today-link" id="todayBtn" hidden aria-label="You are not viewing today. Go back to today">Not today ↩</button>
   </header>
 
   <nav class="weekbar" aria-label="Choose a day">
@@ -231,7 +254,7 @@
       const halal = o.colour === "purple" ? `<span class="tag">Halal children only</span>` : "";
       return `<li class="opt c-${esc(o.colour)}"><div><span class="name">${esc(o.name)}</span>${halal}</div></li>`;
     }).join("");
-    $("main").innerHTML = heading + `<ul class="options${animate ? " enter" : ""}">${list}</ul>` + finePrint();
+    $("main").innerHTML = heading + `<ul class="options${animate === 1 ? " enter-next" : animate === -1 ? " enter-prev" : animate ? " enter" : ""}">${list}</ul>` + finePrint();
   }
 
   function finePrint() {
@@ -241,7 +264,8 @@
     return parts.length ? `<p class="fine">${parts.join(" ")}</p>` : "";
   }
 
-  function go(d, animate = true) {
+  function go(d, animate) {
+    if (animate === undefined) animate = selected ? (d > selected ? 1 : d < selected ? -1 : true) : true;
     selected = schoolDay(d);
     history.replaceState(null, "", iso(selected) === iso(schoolDay(today())) ? location.pathname : `#${iso(selected)}`);
     render(animate);
@@ -260,10 +284,33 @@
   $("todayBtn").onclick = () => go(today());
   document.addEventListener("keydown", (e) => {
     if (!selected || e.target.closest("input, textarea")) return;
-    const wd = (selected.getDay() + 6) % 7;
-    if (e.key === "ArrowRight") go(wd === 4 ? addDays(selected, 3) : addDays(selected, 1));
-    if (e.key === "ArrowLeft") go(wd === 0 ? addDays(selected, -3) : addDays(selected, -1));
+    if (e.key === "ArrowRight") step(1);
+    if (e.key === "ArrowLeft") step(-1);
   });
+
+  // Move one school day forwards or backwards, skipping weekends
+  function step(dir) {
+    const wd = (selected.getDay() + 6) % 7;
+    if (dir > 0) go(wd === 4 ? addDays(selected, 3) : addDays(selected, 1), 1);
+    else go(wd === 0 ? addDays(selected, -3) : addDays(selected, -1), -1);
+  }
+
+  // Swipe left/right anywhere on the page to change day.
+  // Swipes starting at the very edge are ignored so the phone's own back gesture still works.
+  let touch = null;
+  document.addEventListener("touchstart", (e) => {
+    if (!selected || e.touches.length !== 1) { touch = null; return; }
+    const t = e.touches[0];
+    touch = (t.clientX < 24 || t.clientX > window.innerWidth - 24) ? null : { x: t.clientX, y: t.clientY, at: Date.now() };
+  }, { passive: true });
+  document.addEventListener("touchend", (e) => {
+    if (!touch) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touch.x, dy = t.clientY - touch.y;
+    const quick = Date.now() - touch.at < 600;
+    touch = null;
+    if (quick && Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) step(dx < 0 ? 1 : -1);
+  }, { passive: true });
 
   // ---- calendar subscription links (work out this site's own address) ----
   const base = location.href.replace(/[#?].*$/, "").replace(/index\.html$/, "").replace(/\/?$/, "/");
