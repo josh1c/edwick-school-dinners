@@ -1,0 +1,137 @@
+{
+  "school": "Eldwick Primary School",
+  "updated": "2026-10-06",
+  "note": "Only Halal children can order the purple option.",
+  "closed": {
+    "2026-05-04": "Bank holiday",
+    "2026-05-25": "Bank holiday",
+    "2026-08-31": "Bank holiday"
+  },
+  "weeks": {
+    "1": {
+      "startDates": ["2026-04-13","2026-05-04","2026-05-25","2026-06-15","2026-07-06","2026-09-07","2026-09-28","2026-10-19"],
+      "days": {
+        "monday": [
+          {"name": "ProVeg Beef & Red Lentil Bolognaise & Garlic Bread", "colour": "red"},
+          {"name": "Soya Mince Chilli with Rice & Nachos", "colour": "green"},
+          {"name": "American Style Quorn Hot Dog", "colour": "blue"},
+          {"name": "Jacket Potato Cheese", "colour": "yellow"},
+          {"name": "Tuna Sandwich", "colour": "orange"}
+        ],
+        "tuesday": [
+          {"name": "Pork & Apple Whirl", "colour": "red"},
+          {"name": "Pomodoro Pasta", "colour": "green"},
+          {"name": "Halal Chicken & Spinach", "colour": "purple"},
+          {"name": "Hot Cheese and Tomato Sub Roll", "colour": "blue"},
+          {"name": "Jacket Potato Tuna", "colour": "yellow"},
+          {"name": "Cheese Sandwich", "colour": "orange"}
+        ],
+        "wednesday": [
+          {"name": "Roast Dinner", "colour": "red"},
+          {"name": "Cheese Roll", "colour": "green"},
+          {"name": "Halal Roast Chicken Breast", "colour": "purple"},
+          {"name": "Hot Cheese and Tomato Sub Roll", "colour": "blue"},
+          {"name": "Jacket Potato Cheese", "colour": "yellow"},
+          {"name": "Ham Sandwich", "colour": "orange"}
+        ],
+        "thursday": [
+          {"name": "Cheese and Tomato Pizza", "colour": "red"},
+          {"name": "Baked Tortilla Wrap with Julienne of Veg", "colour": "green"},
+          {"name": "Jacket Potato Cheese & Beans", "colour": "yellow"},
+          {"name": "Ham Sandwich", "colour": "orange"}
+        ],
+        "friday": [
+          {"name": "Fish Fingers", "colour": "red"},
+          {"name": "Salmon & Sweet Potato Fishcake", "colour": "green"},
+          {"name": "Arrabiata Pasta", "colour": "blue"},
+          {"name": "Jacket Potato Beans", "colour": "yellow"},
+          {"name": "Tuna Sandwich", "colour": "orange"}
+        ]
+      }
+    },
+    "2": {
+      "startDates": ["2026-04-20","2026-05-11","2026-06-01","2026-06-22","2026-07-13","2026-09-14","2026-10-05","2026-10-26"],
+      "days": {
+        "monday": [
+          {"name": "ProVeg Mild Chicken Curry", "colour": "red"},
+          {"name": "ProVeg Creamy Mac & Cheese", "colour": "green"},
+          {"name": "Mascarpone Pasta", "colour": "blue"},
+          {"name": "Jacket Potato Cheese", "colour": "yellow"},
+          {"name": "Tuna Sandwich", "colour": "orange"}
+        ],
+        "tuesday": [
+          {"name": "Cheese & Onion Pasty", "colour": "red"},
+          {"name": "Savoury Roll", "colour": "green"},
+          {"name": "Hot Cheese and Tomato Sub Roll", "colour": "blue"},
+          {"name": "Jacket Potato Tuna", "colour": "yellow"},
+          {"name": "Cheese Sandwich", "colour": "orange"}
+        ],
+        "wednesday": [
+          {"name": "Roast Dinner", "colour": "red"},
+          {"name": "Halal Roast Chicken Breast", "colour": "purple"},
+          {"name": "Quorn Sausage Toad in the Hole", "colour": "green"},
+          {"name": "Hot Cheese and Tomato Sub Roll", "colour": "blue"},
+          {"name": "Jacket Potato Cheese", "colour": "yellow"},
+          {"name": "Ham Sandwich", "colour": "orange"}
+        ],
+        "thursday": [
+          {"name": "Tuna & Sweetcorn Pizza", "colour": "red"},
+          {"name": "Cheese and Tomato Pizza", "colour": "green"},
+          {"name": "Arrabiata Pasta", "colour": "blue"},
+          {"name": "Jacket Potato Cheese & Beans", "colour": "yellow"},
+          {"name": "Ham Sandwich", "colour": "orange"}
+        ],
+        "friday": [
+          {"name": "Beef Burger in a Bun", "colour": "red"},
+          {"name": "Halal Chicken Burger in a Bun", "colour": "purple"},
+          {"name": "Quorn Pattie Burger in a Bun", "colour": "green"},
+          {"name": "Pomodoro Pasta", "colour": "blue"},
+          {"name": "Jacket Potato Beans", "colour": "yellow"},
+          {"name": "Tuna Sandwich", "colour": "orange"}
+        ]
+      }
+    },
+    "3": {
+      "startDates": ["2026-04-27","2026-05-18","2026-06-08","2026-06-29","2026-08-31","2026-09-21","2026-10-12","2026-11-02"],
+      "days": {
+        "monday": [
+          {"name": "ProVeg Creamy Meat Lasagne", "colour": "red"},
+          {"name": "Creamy Vegetarian Mince Lasagne", "colour": "green"},
+          {"name": "BBQ Quorn with Rice", "colour": "blue"},
+          {"name": "Jacket Potato Cheese", "colour": "yellow"},
+          {"name": "Tuna Sandwich", "colour": "orange"}
+        ],
+        "tuesday": [
+          {"name": "Chicken Pie", "colour": "red"},
+          {"name": "Halal Keema & Peas", "colour": "purple"},
+          {"name": "Cheese Whirl", "colour": "green"},
+          {"name": "Hot Cheese and Tomato Sub Roll", "colour": "blue"},
+          {"name": "Jacket Potato Tuna", "colour": "yellow"},
+          {"name": "Cheese Sandwich", "colour": "orange"}
+        ],
+        "wednesday": [
+          {"name": "Sausage Pie", "colour": "red"},
+          {"name": "Halal Roast Chicken Breast", "colour": "purple"},
+          {"name": "Quorn Roast Dinner", "colour": "green"},
+          {"name": "Hot Cheese and Tomato Sub Roll", "colour": "blue"},
+          {"name": "Jacket Potato Cheese", "colour": "yellow"},
+          {"name": "Ham Sandwich", "colour": "orange"}
+        ],
+        "thursday": [
+          {"name": "Cheese and Tomato Pizza", "colour": "red"},
+          {"name": "ProVeg Indian Style Sausage Rolls", "colour": "green"},
+          {"name": "Mini Power Ball Pizza", "colour": "blue"},
+          {"name": "Jacket Potato Cheese & Beans", "colour": "yellow"},
+          {"name": "Ham Sandwich", "colour": "orange"}
+        ],
+        "friday": [
+          {"name": "Fish Fingers", "colour": "red"},
+          {"name": "Vegetable Pakoras", "colour": "green"},
+          {"name": "Neapolitan Pasta", "colour": "blue"},
+          {"name": "Jacket Potato Beans", "colour": "yellow"},
+          {"name": "Tuna Sandwich", "colour": "orange"}
+        ]
+      }
+    }
+  }
+}

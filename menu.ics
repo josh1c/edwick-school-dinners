@@ -1,0 +1,1265 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//School dinners//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Eldwick Primary School dinners
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-04-13@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+SUMMARY:Dinner: ProVeg Beef & Red Lentil Bolognaise & Garlic Bread
+DESCRIPTION:Menu week 1\n• ProVeg Beef & Red Lentil Bolognaise & Garlic B
+ read\n• Soya Mince Chilli with Rice & Nachos\n• American Style Quorn H
+ ot Dog\n• Jacket Potato Cheese\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-14@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-15@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260415
+DTEND;VALUE=DATE:20260416
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-16@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-17@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-05@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-06@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-07@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-08@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-26@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-27@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-28@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-29@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-15@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:Dinner: ProVeg Beef & Red Lentil Bolognaise & Garlic Bread
+DESCRIPTION:Menu week 1\n• ProVeg Beef & Red Lentil Bolognaise & Garlic B
+ read\n• Soya Mince Chilli with Rice & Nachos\n• American Style Quorn H
+ ot Dog\n• Jacket Potato Cheese\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-16@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-17@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-18@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-19@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-06@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+SUMMARY:Dinner: ProVeg Beef & Red Lentil Bolognaise & Garlic Bread
+DESCRIPTION:Menu week 1\n• ProVeg Beef & Red Lentil Bolognaise & Garlic B
+ read\n• Soya Mince Chilli with Rice & Nachos\n• American Style Quorn H
+ ot Dog\n• Jacket Potato Cheese\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-07@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-08@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-09@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-10@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-07@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Dinner: ProVeg Beef & Red Lentil Bolognaise & Garlic Bread
+DESCRIPTION:Menu week 1\n• ProVeg Beef & Red Lentil Bolognaise & Garlic B
+ read\n• Soya Mince Chilli with Rice & Nachos\n• American Style Quorn H
+ ot Dog\n• Jacket Potato Cheese\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Dinner: ProVeg Beef & Red Lentil Bolognaise & Garlic Bread
+DESCRIPTION:Menu week 1\n• ProVeg Beef & Red Lentil Bolognaise & Garlic B
+ read\n• Soya Mince Chilli with Rice & Nachos\n• American Style Quorn H
+ ot Dog\n• Jacket Potato Cheese\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-01@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-02@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Dinner: ProVeg Beef & Red Lentil Bolognaise & Garlic Bread
+DESCRIPTION:Menu week 1\n• ProVeg Beef & Red Lentil Bolognaise & Garlic B
+ read\n• Soya Mince Chilli with Rice & Nachos\n• American Style Quorn H
+ ot Dog\n• Jacket Potato Cheese\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Dinner: Pork & Apple Whirl
+DESCRIPTION:Menu week 1\n• Pork & Apple Whirl\n• Pomodoro Pasta\n• Ha
+ lal Chicken & Spinach (Halal children only)\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 1\n• Roast Dinner\n• Cheese Roll\n• Halal Roast
+  Chicken Breast (Halal children only)\n• Hot Cheese and Tomato Sub Roll\
+ n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 1\n• Cheese and Tomato Pizza\n• Baked Tortilla Wr
+ ap with Julienne of Veg\n• Jacket Potato Cheese & Beans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 1\n• Fish Fingers\n• Salmon & Sweet Potato Fishca
+ ke\n• Arrabiata Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-20@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-21@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-22@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260423
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-23@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-24@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260425
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-11@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-12@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-13@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-14@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-15@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-01@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-02@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-03@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-04@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-05@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-22@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-23@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-24@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-25@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-26@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-13@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-14@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-15@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-16@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-17@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-06@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-07@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-08@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-09@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Dinner: ProVeg Mild Chicken Curry
+DESCRIPTION:Menu week 2\n• ProVeg Mild Chicken Curry\n• ProVeg Creamy M
+ ac & Cheese\n• Mascarpone Pasta\n• Jacket Potato Cheese\n• Tuna Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Dinner: Cheese & Onion Pasty
+DESCRIPTION:Menu week 2\n• Cheese & Onion Pasty\n• Savoury Roll\n• Ho
+ t Cheese and Tomato Sub Roll\n• Jacket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Dinner: Roast Dinner
+DESCRIPTION:Menu week 2\n• Roast Dinner\n• Halal Roast Chicken Breast (
+ Halal children only)\n• Quorn Sausage Toad in the Hole\n• Hot Cheese a
+ nd Tomato Sub Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Dinner: Tuna & Sweetcorn Pizza
+DESCRIPTION:Menu week 2\n• Tuna & Sweetcorn Pizza\n• Cheese and Tomato 
+ Pizza\n• Arrabiata Pasta\n• Jacket Potato Cheese & Beans\n• Ham Sand
+ wich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Dinner: Beef Burger in a Bun
+DESCRIPTION:Menu week 2\n• Beef Burger in a Bun\n• Halal Chicken Burger
+  in a Bun (Halal children only)\n• Quorn Pattie Burger in a Bun\n• Pom
+ odoro Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-27@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:Dinner: ProVeg Creamy Meat Lasagne
+DESCRIPTION:Menu week 3\n• ProVeg Creamy Meat Lasagne\n• Creamy Vegetar
+ ian Mince Lasagne\n• BBQ Quorn with Rice\n• Jacket Potato Cheese\n• 
+ Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-28@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-29@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-30@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-01@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-18@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:Dinner: ProVeg Creamy Meat Lasagne
+DESCRIPTION:Menu week 3\n• ProVeg Creamy Meat Lasagne\n• Creamy Vegetar
+ ian Mince Lasagne\n• BBQ Quorn with Rice\n• Jacket Potato Cheese\n• 
+ Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-19@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-20@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-21@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-22@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-08@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+SUMMARY:Dinner: ProVeg Creamy Meat Lasagne
+DESCRIPTION:Menu week 3\n• ProVeg Creamy Meat Lasagne\n• Creamy Vegetar
+ ian Mince Lasagne\n• BBQ Quorn with Rice\n• Jacket Potato Cheese\n• 
+ Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-09@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-10@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-11@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-12@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-29@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:Dinner: ProVeg Creamy Meat Lasagne
+DESCRIPTION:Menu week 3\n• ProVeg Creamy Meat Lasagne\n• Creamy Vegetar
+ ian Mince Lasagne\n• BBQ Quorn with Rice\n• Jacket Potato Cheese\n• 
+ Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-30@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-01@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-02@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-03@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-01@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-02@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-03@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-04@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Dinner: ProVeg Creamy Meat Lasagne
+DESCRIPTION:Menu week 3\n• ProVeg Creamy Meat Lasagne\n• Creamy Vegetar
+ ian Mince Lasagne\n• BBQ Quorn with Rice\n• Jacket Potato Cheese\n• 
+ Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-25@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-12@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Dinner: ProVeg Creamy Meat Lasagne
+DESCRIPTION:Menu week 3\n• ProVeg Creamy Meat Lasagne\n• Creamy Vegetar
+ ian Mince Lasagne\n• BBQ Quorn with Rice\n• Jacket Potato Cheese\n• 
+ Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-14@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-16@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Dinner: ProVeg Creamy Meat Lasagne
+DESCRIPTION:Menu week 3\n• ProVeg Creamy Meat Lasagne\n• Creamy Vegetar
+ ian Mince Lasagne\n• BBQ Quorn with Rice\n• Jacket Potato Cheese\n• 
+ Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Dinner: Chicken Pie
+DESCRIPTION:Menu week 3\n• Chicken Pie\n• Halal Keema & Peas (Halal chi
+ ldren only)\n• Cheese Whirl\n• Hot Cheese and Tomato Sub Roll\n• Jac
+ ket Potato Tuna\n• Cheese Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Dinner: Sausage Pie
+DESCRIPTION:Menu week 3\n• Sausage Pie\n• Halal Roast Chicken Breast (H
+ alal children only)\n• Quorn Roast Dinner\n• Hot Cheese and Tomato Sub
+  Roll\n• Jacket Potato Cheese\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Dinner: Cheese and Tomato Pizza
+DESCRIPTION:Menu week 3\n• Cheese and Tomato Pizza\n• ProVeg Indian Sty
+ le Sausage Rolls\n• Mini Power Ball Pizza\n• Jacket Potato Cheese & Be
+ ans\n• Ham Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06@school-dinners
+DTSTAMP:20261006T100016Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Dinner: Fish Fingers
+DESCRIPTION:Menu week 3\n• Fish Fingers\n• Vegetable Pakoras\n• Neapo
+ litan Pasta\n• Jacket Potato Beans\n• Tuna Sandwich
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

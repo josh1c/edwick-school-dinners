@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>School dinners</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --page: #ffffff;
+    --ink: #1b1a26;
+    --muted: #5f5d6e;
+    --line: #e4e2ea;
+    --soft: #f4f3f7;
+    --red: #e8342e;
+    --green: #8ccf4d;
+    --blue: #19aee6;
+    --purple: #6f2fa3;
+    --yellow: #ffe31a;
+    --orange: #f07e30;
+    --font: "Bricolage Grotesque", ui-rounded, "Segoe UI", system-ui, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --page: #15141c; --ink: #f2f1f6; --muted: #a9a7b8; --line: #2d2b38; --soft: #1f1e28;
+    }
+  }
+  :root[data-theme="dark"] {
+    --page: #15141c; --ink: #f2f1f6; --muted: #a9a7b8; --line: #2d2b38; --soft: #1f1e28;
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font-family: var(--font); font-size: 1.0625rem; line-height: 1.45;
+  }
+  .wrap { max-width: 36rem; margin: 0 auto; padding: 1.25rem 1.1rem 3rem; }
+
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+  .school { font-weight: 600; font-size: 0.95rem; color: var(--muted); margin: 0; }
+  .today-link {
+    font: inherit; font-size: 0.95rem; font-weight: 600; color: var(--ink);
+    background: none; border: 0; padding: 0.25rem 0; cursor: pointer; text-decoration: underline;
+    text-underline-offset: 3px; white-space: nowrap;
+  }
+  .today-link[hidden] { display: none; }
+
+  /* Week strip: five days, the chosen one filled */
+  .weekbar { display: flex; align-items: center; gap: 0.4rem; margin: 1.1rem 0 0.4rem; }
+  .arrow {
+    flex: none; width: 2.5rem; height: 2.75rem; border-radius: 0.6rem;
+    border: 1.5px solid var(--line); background: var(--page); color: var(--ink);
+    font: inherit; font-size: 1.2rem; cursor: pointer;
+  }
+  .days { flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.3rem; }
+  .day {
+    font: inherit; color: var(--ink); background: var(--soft); border: 0; border-radius: 0.6rem;
+    padding: 0.4rem 0 0.35rem; cursor: pointer; line-height: 1.15;
+  }
+  .day small { display: block; font-size: 0.75rem; color: var(--muted); }
+  .day b { font-size: 1.05rem; font-weight: 600; }
+  .day[aria-current="date"] { background: var(--ink); color: var(--page); }
+  .day[aria-current="date"] small { color: inherit; opacity: 0.75; }
+  .day.is-today:not([aria-current="date"]) { box-shadow: inset 0 0 0 1.5px var(--ink); }
+  .weeklabel { font-size: 0.9rem; color: var(--muted); margin: 0 0 1.4rem; text-align: center; }
+
+  h1 {
+    font-size: clamp(2.6rem, 11vw, 3.6rem); font-weight: 800; line-height: 0.95;
+    letter-spacing: -0.02em; margin: 0 0 0.3rem;
+  }
+  .date { margin: 0 0 1.25rem; color: var(--muted); font-size: 1.05rem; }
+
+  /* The menu itself: each option is a band in the school's own colour */
+  .options { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+  .opt {
+    display: grid; grid-template-columns: 0.9rem 1fr; align-items: stretch;
+    background: var(--soft); border-radius: 0.75rem; overflow: hidden;
+  }
+  .opt::before { content: ""; background: var(--c); }
+  .opt div { padding: 0.8rem 1rem; }
+  .opt .name { font-size: 1.2rem; font-weight: 600; line-height: 1.25; display: block; }
+  .opt .tag { font-size: 0.85rem; color: var(--muted); display: block; margin-top: 0.15rem; }
+  .opt:first-child .name { font-size: 1.45rem; font-weight: 800; }
+
+  .c-red { --c: var(--red); } .c-green { --c: var(--green); } .c-blue { --c: var(--blue); }
+  .c-purple { --c: var(--purple); } .c-yellow { --c: var(--yellow); } .c-orange { --c: var(--orange); }
+
+  .empty {
+    border: 2px dashed var(--line); border-radius: 0.75rem; padding: 1.4rem 1.2rem;
+  }
+  .empty p { margin: 0 0 0.75rem; }
+  .empty p:last-child { margin-bottom: 0; }
+  .btn {
+    display: inline-block; font: inherit; font-weight: 600; font-size: 1rem;
+    background: var(--ink); color: var(--page); border: 0; border-radius: 0.6rem;
+    padding: 0.6rem 1rem; cursor: pointer; text-decoration: none;
+  }
+  .btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--line); }
+
+  footer { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 1.25rem; }
+  footer h2 { font-size: 1.1rem; margin: 0 0 0.35rem; }
+  footer p { margin: 0 0 0.9rem; color: var(--muted); font-size: 0.95rem; }
+  .cal { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+  .fine { font-size: 0.85rem; }
+
+  button:focus-visible, a:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+  @media (prefers-reduced-motion: no-preference) {
+    .options.enter .opt { animation: rise 260ms ease-out both; }
+    .options.enter .opt:nth-child(2) { animation-delay: 30ms; }
+    .options.enter .opt:nth-child(3) { animation-delay: 60ms; }
+    .options.enter .opt:nth-child(4) { animation-delay: 90ms; }
+    .options.enter .opt:nth-child(5) { animation-delay: 120ms; }
+    .options.enter .opt:nth-child(6) { animation-delay: 150ms; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="school" id="school">School dinners</p>
+    <button class="today-link" id="todayBtn" hidden>Back to today</button>
+  </header>
+
+  <nav class="weekbar" aria-label="Choose a day">
+    <button class="arrow" id="prevWeek" aria-label="Previous week">‹</button>
+    <div class="days" id="days"></div>
+    <button class="arrow" id="nextWeek" aria-label="Next week">›</button>
+  </nav>
+  <p class="weeklabel" id="weekLabel"></p>
+
+  <main id="main" aria-live="polite">
+    <p>Loading the menu…</p>
+  </main>
+
+  <footer>
+    <h2>See it in your calendar</h2>
+    <p>Subscribe once and each school day shows the dinner options. New menus appear automatically, though calendar apps can take up to a day to refresh.</p>
+    <div class="cal">
+      <a class="btn" id="calApple" href="#">Apple / Outlook</a>
+      <a class="btn ghost" id="calGoogle" href="#" target="_blank" rel="noopener">Google Calendar</a>
+    </div>
+    <p class="fine" id="updated"></p>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const DAY_KEYS = ["monday", "tuesday", "wednesday", "thursday", "friday"];
+  const DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  const $ = (id) => document.getElementById(id);
+  let menu = null;
+  let weekIndex = {};   // "YYYY-MM-DD" (Monday) -> week number
+  let selected = null;  // Date at local midnight
+
+  // ---- date helpers (all local time, no timezone surprises) ----
+  const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  const parse = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+  const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
+  const mondayOf = (d) => addDays(d, -((d.getDay() + 6) % 7));
+  const today = () => { const t = new Date(); return new Date(t.getFullYear(), t.getMonth(), t.getDate()); };
+  const schoolDay = (d) => { // weekends roll forward to Monday
+    const wd = d.getDay();
+    return wd === 6 ? addDays(d, 2) : wd === 0 ? addDays(d, 1) : d;
+  };
+  const fmt = (d, opts) => d.toLocaleDateString("en-GB", opts);
+
+  function esc(s) {
+    return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  }
+
+  function nextMenuWeek(from) {
+    const mons = Object.keys(weekIndex).sort();
+    return mons.find((m) => m >= iso(mondayOf(from)));
+  }
+
+  function render(animate) {
+    const mon = mondayOf(selected);
+    const monKey = iso(mon);
+    const week = weekIndex[monKey];
+    const dayIdx = (selected.getDay() + 6) % 7;
+    const t = today();
+    const tKey = iso(schoolDay(t));
+
+    // week strip
+    $("days").innerHTML = DAY_NAMES.map((n, i) => {
+      const d = addDays(mon, i);
+      const cur = i === dayIdx ? ' aria-current="date"' : "";
+      const isToday = iso(d) === tKey ? " is-today" : "";
+      return `<button class="day${isToday}" data-i="${i}"${cur} aria-label="${fmt(d, { weekday: "long", day: "numeric", month: "long" })}"><small>${n.slice(0, 3)}</small><b>${d.getDate()}</b></button>`;
+    }).join("");
+
+    $("weekLabel").textContent = week
+      ? `Week of ${fmt(mon, { day: "numeric", month: "long" })}, menu week ${week}`
+      : `Week of ${fmt(mon, { day: "numeric", month: "long" })}`;
+
+    $("todayBtn").hidden = iso(selected) === tKey;
+
+    const heading = `<h1>${DAY_NAMES[dayIdx]}</h1><p class="date">${fmt(selected, { day: "numeric", month: "long", year: "numeric" })}</p>`;
+    const closed = menu.closed && menu.closed[iso(selected)];
+
+    if (closed) {
+      $("main").innerHTML = heading + `<div class="empty"><p><strong>${esc(closed)}.</strong> No school dinners today.</p></div>`;
+      return;
+    }
+
+    if (!week) {
+      const next = nextMenuWeek(selected);
+      let body = `<p><strong>No menu for this week.</strong> It may be a school holiday, or the school hasn't published the menu yet.</p>`;
+      if (next) body += `<p><button class="btn" data-goto="${next}">Go to next menu week</button></p>`;
+      else body += `<p>The current menu has finished. Check back once the school publishes the next one.</p>`;
+      $("main").innerHTML = heading + `<div class="empty">${body}</div>`;
+      return;
+    }
+
+    const items = menu.weeks[week].days[DAY_KEYS[dayIdx]] || [];
+    const list = items.map((o) => {
+      const halal = o.colour === "purple" ? `<span class="tag">Halal children only</span>` : "";
+      return `<li class="opt c-${esc(o.colour)}"><div><span class="name">${esc(o.name)}</span>${halal}</div></li>`;
+    }).join("");
+    $("main").innerHTML = heading + `<ul class="options${animate ? " enter" : ""}">${list}</ul>`;
+  }
+
+  function go(d, animate = true) {
+    selected = schoolDay(d);
+    history.replaceState(null, "", iso(selected) === iso(schoolDay(today())) ? location.pathname : `#${iso(selected)}`);
+    render(animate);
+  }
+
+  // ---- events ----
+  $("days").addEventListener("click", (e) => {
+    const b = e.target.closest(".day"); if (!b) return;
+    go(addDays(mondayOf(selected), Number(b.dataset.i)));
+  });
+  $("main").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-goto]"); if (b) go(parse(b.dataset.goto));
+  });
+  $("prevWeek").onclick = () => go(addDays(mondayOf(selected), -7));
+  $("nextWeek").onclick = () => go(addDays(mondayOf(selected), 7));
+  $("todayBtn").onclick = () => go(today());
+  document.addEventListener("keydown", (e) => {
+    if (!selected || e.target.closest("input, textarea")) return;
+    const wd = (selected.getDay() + 6) % 7;
+    if (e.key === "ArrowRight") go(wd === 4 ? addDays(selected, 3) : addDays(selected, 1));
+    if (e.key === "ArrowLeft") go(wd === 0 ? addDays(selected, -3) : addDays(selected, -1));
+  });
+
+  // ---- calendar subscription links (work out this site's own address) ----
+  const base = location.href.replace(/[#?].*$/, "").replace(/index\.html$/, "").replace(/\/?$/, "/");
+  const icsUrl = base + "menu.ics";
+  const webcal = icsUrl.replace(/^https?:/, "webcal:");
+  $("calApple").href = webcal;
+  $("calGoogle").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
+
+  // ---- load ----
+  fetch("menu.json", { cache: "no-cache" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((data) => {
+      menu = data;
+      for (const [num, w] of Object.entries(data.weeks)) for (const s of w.startDates) weekIndex[s] = num;
+      $("school").textContent = `${data.school} dinners`;
+      document.title = `${data.school} dinners`;
+      if (data.updated) $("updated").textContent = `Menu last updated ${fmt(parse(data.updated), { day: "numeric", month: "long", year: "numeric" })}. ${data.note || ""}`;
+      const h = location.hash.slice(1);
+      go(/^\d{4}-\d{2}-\d{2}$/.test(h) ? parse(h) : today(), true);
+    })
+    .catch(() => {
+      $("main").innerHTML = `<div class="empty"><p><strong>The menu couldn't be loaded.</strong></p><p>Check that <code>menu.json</code> sits next to this page, and open the site from its GitHub Pages address rather than as a file on your computer.</p></div>`;
+    });
+})();
+</script>
+</body>
+</html>
