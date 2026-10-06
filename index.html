@@ -35,12 +35,18 @@
     --page: #15141c; --ink: #f2f1f6; --muted: #a9a7b8; --line: #2d2b38; --soft: #1f1e28;
   }
   *, *::before, *::after { box-sizing: inherit; }
-  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); height: 100%; }
   body {
     margin: 0; background: var(--page); color: var(--ink);
     font-family: var(--font); font-size: 1.0625rem; line-height: 1.45;
+    height: 100%;
   }
-  .wrap { max-width: 36rem; margin: 0 auto; padding: 1.25rem 1.1rem 3rem; }
+  .wrap {
+    max-width: 36rem; margin: 0 auto; height: 100%;
+    padding: 0.9rem 1rem 0.75rem;
+    display: flex; flex-direction: column;
+  }
+  main { flex: 1; min-height: 0; overflow-y: auto; }
 
   header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
   .school { font-weight: 600; font-size: 0.95rem; color: var(--muted); margin: 0; }
@@ -52,9 +58,9 @@
   .today-link[hidden] { display: none; }
 
   /* Week strip: five days, the chosen one filled */
-  .weekbar { display: flex; align-items: center; gap: 0.4rem; margin: 1.1rem 0 0.4rem; }
+  .weekbar { display: flex; align-items: center; gap: 0.4rem; margin: 0.7rem 0 0.3rem; }
   .arrow {
-    flex: none; width: 2.5rem; height: 2.75rem; border-radius: 0.6rem;
+    flex: none; width: 2.4rem; height: 2.6rem; border-radius: 0.6rem;
     border: 1.5px solid var(--line); background: var(--page); color: var(--ink);
     font: inherit; font-size: 1.2rem; cursor: pointer;
   }
@@ -68,25 +74,25 @@
   .day[aria-current="date"] { background: var(--ink); color: var(--page); }
   .day[aria-current="date"] small { color: inherit; opacity: 0.75; }
   .day.is-today:not([aria-current="date"]) { box-shadow: inset 0 0 0 1.5px var(--ink); }
-  .weeklabel { font-size: 0.9rem; color: var(--muted); margin: 0 0 1.4rem; text-align: center; }
+  .weeklabel { font-size: 0.85rem; color: var(--muted); margin: 0 0 0.8rem; text-align: center; }
 
+  .dayhead { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 0.6rem; margin: 0 0 0.6rem; }
   h1 {
-    font-size: clamp(2.6rem, 11vw, 3.6rem); font-weight: 800; line-height: 0.95;
-    letter-spacing: -0.02em; margin: 0 0 0.3rem;
+    font-size: clamp(2.1rem, 9.5vw, 3.2rem); font-weight: 800; line-height: 1;
+    letter-spacing: -0.02em; margin: 0;
   }
-  .date { margin: 0 0 1.25rem; color: var(--muted); font-size: 1.05rem; }
+  .date { margin: 0; color: var(--muted); font-size: 1rem; }
 
   /* The menu itself: each option is a band in the school's own colour */
-  .options { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+  .options { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
   .opt {
-    display: grid; grid-template-columns: 0.9rem 1fr; align-items: stretch;
+    display: grid; grid-template-columns: 0.75rem 1fr; align-items: stretch;
     background: var(--soft); border-radius: 0.75rem; overflow: hidden;
   }
   .opt::before { content: ""; background: var(--c); }
-  .opt div { padding: 0.8rem 1rem; }
-  .opt .name { font-size: 1.2rem; font-weight: 600; line-height: 1.25; display: block; }
-  .opt .tag { font-size: 0.85rem; color: var(--muted); display: block; margin-top: 0.15rem; }
-  .opt:first-child .name { font-size: 1.45rem; font-weight: 800; }
+  .opt div { padding: 0.5rem 0.85rem; }
+  .opt .name { font-size: 1.08rem; font-weight: 600; line-height: 1.22; display: block; }
+  .opt .tag { font-size: 0.8rem; color: var(--muted); display: block; margin-top: 0.05rem; }
 
   .c-red { --c: var(--red); } .c-green { --c: var(--green); } .c-blue { --c: var(--blue); }
   .c-purple { --c: var(--purple); } .c-yellow { --c: var(--yellow); } .c-orange { --c: var(--orange); }
@@ -103,11 +109,16 @@
   }
   .btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--line); }
 
-  footer { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 1.25rem; }
-  footer h2 { font-size: 1.1rem; margin: 0 0 0.35rem; }
-  footer p { margin: 0 0 0.9rem; color: var(--muted); font-size: 0.95rem; }
-  .cal { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
-  .fine { font-size: 0.85rem; }
+  footer {
+    flex: none; margin-top: 0.75rem; border-top: 1px solid var(--line); padding-top: 0.6rem;
+    display: flex; align-items: center; flex-wrap: wrap; gap: 0.35rem 0.45rem; font-size: 0.82rem;
+  }
+  footer .label { color: var(--muted); }
+  footer .cal-link {
+    color: var(--ink); font-weight: 600; text-decoration: none;
+    padding: 0.25rem 0.55rem; border-radius: 999px; box-shadow: inset 0 0 0 1.5px var(--line);
+  }
+  .fine { color: var(--muted); font-size: 0.75rem; line-height: 1.35; margin: 0.5rem 0 0; }
 
   button:focus-visible, a:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
   @media (prefers-reduced-motion: no-preference) {
@@ -140,13 +151,9 @@
   </main>
 
   <footer>
-    <h2>See it in your calendar</h2>
-    <p>Subscribe once and each school day shows the dinner options. New menus appear automatically, though calendar apps can take up to a day to refresh.</p>
-    <div class="cal">
-      <a class="btn" id="calApple" href="#">Apple / Outlook</a>
-      <a class="btn ghost" id="calGoogle" href="#" target="_blank" rel="noopener">Google Calendar</a>
-    </div>
-    <p class="fine" id="updated"></p>
+    <span class="label">Add to calendar</span>
+    <a class="cal-link" id="calApple" href="#">Apple/Outlook</a>
+    <a class="cal-link" id="calGoogle" href="#" target="_blank" rel="noopener">Google</a>
   </footer>
 </div>
 
@@ -202,7 +209,7 @@
 
     $("todayBtn").hidden = iso(selected) === tKey;
 
-    const heading = `<h1>${DAY_NAMES[dayIdx]}</h1><p class="date">${fmt(selected, { day: "numeric", month: "long", year: "numeric" })}</p>`;
+    const heading = `<div class="dayhead"><h1>${DAY_NAMES[dayIdx]}</h1><p class="date">${fmt(selected, { day: "numeric", month: "long" })}</p></div>`;
     const closed = menu.closed && menu.closed[iso(selected)];
 
     if (closed) {
@@ -224,7 +231,14 @@
       const halal = o.colour === "purple" ? `<span class="tag">Halal children only</span>` : "";
       return `<li class="opt c-${esc(o.colour)}"><div><span class="name">${esc(o.name)}</span>${halal}</div></li>`;
     }).join("");
-    $("main").innerHTML = heading + `<ul class="options${animate ? " enter" : ""}">${list}</ul>`;
+    $("main").innerHTML = heading + `<ul class="options${animate ? " enter" : ""}">${list}</ul>` + finePrint();
+  }
+
+  function finePrint() {
+    const parts = [];
+    if (menu.note) parts.push(esc(menu.note));
+    if (menu.updated) parts.push(`Menu updated ${fmt(parse(menu.updated), { day: "numeric", month: "short", year: "numeric" })}.`);
+    return parts.length ? `<p class="fine">${parts.join(" ")}</p>` : "";
   }
 
   function go(d, animate = true) {
@@ -266,7 +280,6 @@
       for (const [num, w] of Object.entries(data.weeks)) for (const s of w.startDates) weekIndex[s] = num;
       $("school").textContent = `${data.school} dinners`;
       document.title = `${data.school} dinners`;
-      if (data.updated) $("updated").textContent = `Menu last updated ${fmt(parse(data.updated), { day: "numeric", month: "long", year: "numeric" })}. ${data.note || ""}`;
       const h = location.hash.slice(1);
       go(/^\d{4}-\d{2}-\d{2}$/.test(h) ? parse(h) : today(), true);
     })
