@@ -37,7 +37,13 @@
     "2027-04-07": "Easter holidays",
     "2027-04-08": "Easter holidays",
     "2027-04-09": "Easter holidays",
-    "2027-05-03": "May Day bank holiday"
+    "2027-05-03": "May Day bank holiday",
+    "2027-05-28": "Spring bank holiday",
+    "2027-05-31": "Spring bank holiday",
+    "2027-06-01": "Spring bank holiday",
+    "2027-06-02": "Spring bank holiday",
+    "2027-06-03": "Spring bank holiday",
+    "2027-06-04": "Spring bank holiday"
   },
   "weeks": {
     "1": {
