@@ -227,7 +227,7 @@
     }).join("");
 
     $("weekLabel").textContent = week
-      ? `Week of ${fmt(mon, { day: "numeric", month: "long" })}, menu week ${week}`
+      ? `Week of ${fmt(mon, { day: "numeric", month: "long" })}, menu week ${menu.weeks[week].label || week}`
       : `Week of ${fmt(mon, { day: "numeric", month: "long" })}`;
 
     $("todayBtn").hidden = iso(selected) === tKey;
